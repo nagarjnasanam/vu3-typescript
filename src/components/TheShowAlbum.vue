@@ -1,6 +1,6 @@
 <template>
   <h2>Album Name: {{ album.collectionName }}</h2>
-  <h4>Artwork</h4>
+  <h3>Artwork</h3>
   <img :src="album.artworkUrl100" alt="" />
   <p><b>copyright</b>:{{album.copyright}}</p>
   <p><b>primaryGenreName</b>:{{album.primaryGenreName}}</p>
