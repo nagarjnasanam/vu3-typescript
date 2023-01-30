@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    
+    <p>In this page Enums and Methods are used</p>
+    <p>Check messages in console</p>
   </div>
 </template>
 
@@ -73,6 +74,7 @@ function add(a: alphanumeric, b: alphanumeric) {
 }
 function raiseError(message: string): never {
     throw new Error(message);
+    // console.log(message)
 }
 function reject() { 
    return raiseError('Rejected');

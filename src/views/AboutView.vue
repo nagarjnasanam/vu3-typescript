@@ -3,9 +3,9 @@
     <h1>This is an about page</h1>
     <h1>Books</h1>
     <p>{{bookDetails}}</p>
-    <p>{{number}} => {{computedNumber}}</p>
+    <p>power of {{number}} is {{computedNumber}}</p>
+    <!-- <p>{{number}} = power of {{computedNumber}}</p> -->
     <input placeholder="Enter a Number" v-model="number" /> <br />
-    <input ref="el" placeholder="res" />
   </div>
 </template>
 <script lang="ts">
