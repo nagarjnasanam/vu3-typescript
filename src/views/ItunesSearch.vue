@@ -3,7 +3,7 @@
     <!-- <p>{{data.resultCount}}</p> -->
     <!-- <p>{{data.results[0]}}</p> -->
     <form @submit.prevent="searchItunes(searchText)">
-        <input type="text" v-model="searchText" />
+        <input type="text" placeholder="Enter an album Name" v-model="searchText" />
         <button @click="searchItunes(searchText)">Search</button>
         <div v-if="data.results">
           <div v-for="album in data.results" :key="album.artistId">
