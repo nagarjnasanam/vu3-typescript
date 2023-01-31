@@ -7,6 +7,7 @@
     <router-link to="/generics">Generics</router-link> |
     <router-link to="/classes">Classes</router-link> |
     <router-link to="/itunes">Itunes</router-link> |
+    <router-link to="/todos">Todos</router-link> |
   </nav>
   <router-view/>
 </template>
