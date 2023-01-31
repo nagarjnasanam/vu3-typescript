@@ -8,6 +8,7 @@
     <router-link to="/classes">Classes</router-link> |
     <router-link to="/itunes">Itunes</router-link> |
     <router-link to="/todos">Todos</router-link> |
+    <router-link to="/openai">ChatGpt</router-link> |
   </nav>
   <router-view/>
 </template>
