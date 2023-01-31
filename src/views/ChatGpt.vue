@@ -26,7 +26,7 @@ import { defineComponent, onMounted,  reactive,  ref } from "vue";
 import { Configuration, OpenAIApi } from "openai";
 
 const configration = new Configuration({
-  apiKey: "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",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configration);
 export default defineComponent({
@@ -52,7 +52,7 @@ export default defineComponent({
       });
       
       console.log( response.data.choices[0].text);
-      var data = response.data.choices[0].text.trim()
+      var data = response.data.choices[0].text
       ansers.value.push({
         question:question.value,
         value:data
